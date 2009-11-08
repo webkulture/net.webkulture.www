@@ -1,0 +1,44 @@
+/**
+ * global.css
+ * @author Paul Cooper (2009)
+ **/
+
+body 
+{
+	margin-top:40px;
+	background-image:url("/assets/light_bleed.png");
+	background-repeat:repeat-x;
+	
+}
+
+a:link, a:visited
+{
+	text-decoration:none;
+	font-family:"Arial";
+	font-size:14px;
+	color:#CCC;
+}
+
+div#header
+{
+	margin:0 auto;
+	padding:8px 0 8px 0;
+	width:860px; height:40px;
+	line-height:24px;
+	background-image:url("/assets/header_bg.png");
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+	div#header-navigation a:link, div#header-navigation a:visited
+	{
+		margin-right:10px;
+	}
+	
+div#content-wrapper
+{
+	margin:0 auto;
+	padding-top:40px;
+	width:860px;
+	border-top:solid 1px #ccc;
+}
