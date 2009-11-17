@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>webkulture/views/scripts/index/index.phtml</string>
+	<string>webkulture/controllers/IndexController.php</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,14 +26,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>19</integer>
 				<key>line</key>
-				<integer>40</integer>
+				<integer>58</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>30</integer>
+		</dict>
+		<key>html/css/index.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>27</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>6</integer>
 		</dict>
 		<key>html/index.php</key>
 		<dict>
@@ -54,7 +68,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>55</integer>
 				<key>line</key>
 				<integer>36</integer>
 			</dict>
@@ -68,9 +82,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>46</integer>
 				<key>line</key>
-				<integer>22</integer>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -82,9 +96,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>42</integer>
+				<integer>10</integer>
 				<key>line</key>
-				<integer>1</integer>
+				<integer>4</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -97,6 +111,7 @@
 		<string>html/index.php</string>
 		<string>webkulture/layouts/scripts/layout.phtml</string>
 		<string>html/css/global.css</string>
+		<string>html/css/index.css</string>
 		<string>webkulture/views/scripts/index/index.phtml</string>
 		<string>webkulture/controllers/IndexController.php</string>
 	</array>

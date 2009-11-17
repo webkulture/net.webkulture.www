@@ -20,31 +20,40 @@
     -->
 <div id="header">
     <div id="header-logo" style="float: left">
-        <b>webkulture_logo</b>
+		WEBKULTURE.NET
     </div>
     <div id="header-navigation" style="float: right">
-		<a href="<?= $this->url(array('action'=>'index'), 'default', true) ?>">
-			Home
-		</a>
-		<a href="<?= $this->url(array('controller'=>'blog'), 'default', true) ?>">
-			Blog
-		</a>
-        <a href="<?= $this->url(array('action'=>'contact'), 'default', true) ?>">
-			Contact
-		</a>
-		<a href="<?= $this->url(array('action'=>'about'), 'default', true) ?>">
-			About
-		</a>
+		<div id="home-link" class="navigation-link">
+			<a href="<?= $this->url(array('action'=>'index'), 'default', true) ?>">
+				Home
+			</a>
+		</div>
+		<div id="blog-link" class="navigation-link">
+			<a href="<?= $this->url(array('controller'=>'blog'), 'default', true) ?>">
+				Blog
+			</a>
+		</div>
+		<div id="contact-link" class="navigation-link">
+        	<a href="<?= $this->url(array('action'=>'contact'), 'default', true) ?>">
+				Contact
+			</a>
+		</div>
+		<div id="about-link" class="navigation-link">
+			<a href="<?= $this->url(array('action'=>'about'), 'default', true) ?>">
+				About
+			</a>
+		</div>
     </div>
 </div>
+
+<div id="seperator"></div>
 
 <!-- This next call will now include any content that was generated in the
      dispatching of a controllers action (or series of actions).  -->
 
 <?= $this->layout()->content ?>
 
-<!-- If your application requires it, this would be a great place to put a
-     footer for all pages. -->
+<div id="footer"></div>
 
 </body>
 </html>

@@ -32,9 +32,10 @@ class IndexController extends Zend_Controller_Action
            draw the line between the C and V in the MVC.  Also note this action
            helper is optional, but on default.
         */
-		//var_dump($this);
-		
-		$this->view->headLink()->appendStylesheet('/css/main.css');
+		//var_dump($this);		
+		$this->view->headLink()->appendStylesheet('/css/index.css');
+		$this->view->headLink()->appendStylesheet('/css/products.css');
+		$this->view->headLink()->appendStylesheet('/css/navigation.css');
     }
 
 	public function uiAction()
