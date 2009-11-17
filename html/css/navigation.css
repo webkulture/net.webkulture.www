@@ -1,0 +1,14 @@
+div.navigation-link
+{
+	width:auto;
+	float:left;
+	padding-left:22px;
+	margin:0 12px 0 0;
+	background-position:left center;
+	background-repeat:no-repeat;
+}
+
+	div#home-link { background-image:url("/assets/images/navigation/home.png"); }
+	div#blog-link { background-image:url("/assets/images/navigation/comment.png"); }
+	div#contact-link { background-image:url("/assets/images/navigation/email.png"); }
+	div#about-link { background-image:url("/assets/images/navigation/info.png"); }
